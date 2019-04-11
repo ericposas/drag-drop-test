@@ -1,0 +1,30 @@
+html,
+body{
+  margin: 0;
+  font-family: 'Ubuntu';
+}
+
+.select-none{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.bounce{
+  transition: transform 1s ease;
+  transform: scale(1.0);
+}
+
+.bounce:hover{
+  transform: scale(1.2);
+}
+
+.settle{
+  transition: transform .75s ease;
+  transform: scale(1.05);
+}
+
+.settle:hover{
+  transform: scale(1.0);
+}
