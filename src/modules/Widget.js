@@ -35,7 +35,7 @@ function Widget(id){
   }
   this.def = `
     <div id="widget-${id}" style="${this.style.widget}" class="widget-container select-none">
-      <div style="${this.style.text}">widget</div>
+      <div style="${this.style.text}">Widget ${id}</div>
     </div>
   `
   $('body').append(this.def)
